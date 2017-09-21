@@ -11,7 +11,7 @@ q1 = raw_input ("Bonjour, avez vous 1h par semaine pour m'aider en reseau svp ? 
 if (q1=='oui' or q1=='Oui') :
   print ("Merci, alors on va trouver le jour et l'heure en commun alors. Repondez par le jour.")  
 
-  q2 = raw_input ("Quel jour sera possible pour nous deux ? Repondez en 3 carateres 'lun', 'mar', 'mer' ou 'jeu' svp.")
+  q2 = raw_input ("Quel jour sera possible pour nous deux ? Repondez en 3 caracteres 'lun', 'mar', 'mer' ou 'jeu' svp.")
   if (q2=='lun' or q2=='Lun') :
     q3 = raw_input (lun + rep)
     if (q3=='oui') :
